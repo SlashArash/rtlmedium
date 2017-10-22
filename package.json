@@ -1,0 +1,20 @@
+{
+  "name": "rtlmedium",
+  "version": "1.0.0",
+  "description": "detect language of medium article and change direction if it's in a RTL language",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "franc": "^3.1.1",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --progress --colors --watch",
+    "build": "webpack -p --progress --hide-modules"
+  },
+  "author": "slasharash",
+  "license": "MIT"
+}
