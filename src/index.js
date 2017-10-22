@@ -1,3 +1,18 @@
+// ==UserScript==
+// @name        RTLMedium
+// @namespace   slasharash.rtlmedium
+// @include     https://medium.com/*
+// @version     1.0.0
+// @author      slasharash
+// @license MIT
+// @homepageURL    https://github.com/SlashArash/rtlmedium
+// @supportURL     https://github.com/SlashArash/rtlmedium
+// @updateURL      https://raw.githubusercontent.com/SlashArash/rtlmedium/master/dist/bundle.js
+// @downloadURL    https://raw.githubusercontent.com/SlashArash/rtlmedium/master/dist/bundle.js
+// @run-at document-end
+// @grant       none
+// ==/UserScript==
+
 import franc from 'franc';
 import WebFont from 'webfontloader';
 
